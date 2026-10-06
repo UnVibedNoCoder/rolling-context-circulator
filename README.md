@@ -1,4 +1,16 @@
-# Rolling Context / Circulator
+# Rolling Context Circulator
+
+A note from me..
+I don’t know how to code.
+I don’t really know what I’m doing.
+And I’m slightly mentally deficient.
+But my mates GPT, Hermes, Qwen and DSH do.
+
+Please feel free to test this, break it, abuse it and tell me what goes wrong.
+
+Next update for me: try a more analytical model like Phi as the Librarian, improve fact-checking/settled decisions, test more agents/backends, and eventually make it properly universal across Linux/Windows.
+That’s the plan anyway. 
+
 
 Proposed release **0.3.0-beta.1** — Linux technical beta for Hermes and local llama.cpp. The source is licensed under [MIT](LICENSE). This supervised technical beta does not establish broad runtime reliability.
 
