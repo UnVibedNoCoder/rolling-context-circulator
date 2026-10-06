@@ -6,10 +6,12 @@ I don’t really know what I’m doing.
 And I’m slightly mentally deficient.
 But my mates GPT, Hermes, Qwen and DSH do.
 
-Please feel free to test this, break it, abuse it and tell me what goes wrong.
+Please feel free to test this, break it, abuse it and tell me what goes wrong. Aimed at those with smaller less vram systems, that hit those damn limits/crashes/compaction sequences.
 
 Next update for me: try a more analytical model like Phi as the Librarian, improve fact-checking/settled decisions, test more agents/backends, and eventually make it properly universal across Linux/Windows.
 That’s the plan anyway. 
+
+Caution. This is a BETA, please don't ruin your good configs or projects. 
 
 
 Proposed release **0.3.0-beta.1** — Linux technical beta for Hermes and local llama.cpp. The source is licensed under [MIT](LICENSE). This supervised technical beta does not establish broad runtime reliability.
