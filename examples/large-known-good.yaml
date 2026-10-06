@@ -1,0 +1,91 @@
+# Known-good LARGE example, not universal defaults. Do not blindly overwrite a prepared profile.
+model:
+  default: qwen38-27b-atx-73k
+  provider: custom
+  base_url: http://127.0.0.1:8094/v1
+  api_mode: chat_completions
+  context_length: 73728
+custom_providers:
+- name: Rolling context LARGE
+  base_url: http://127.0.0.1:8094/v1
+  model: qwen38-27b-atx-73k
+  api_mode: chat_completions
+  context_length: 73728
+  extra_body:
+    max_tokens: 8192
+fallback_model: []
+compression:
+  enabled: false
+  micro_compact: false
+  proactive_prune_tokens: 0
+  idle_compact_after_seconds: 0
+context:
+  engine: local_rolling
+  local_rolling:
+    state_dir: ~/.local/state/rolling-context-beta
+    profile: large
+    main_url: http://127.0.0.1:8084
+    compactor_url: http://127.0.0.1:8083
+    compactor_model: qwen35-4b-compactor
+    compactor_context_length: 65536
+    mode: circulator
+    ram_cache_bytes: 67108864
+    overhead_reserve: 8192
+    selection_policy: coherent
+    semantic_policy: cold_chunks
+    segmentation_policy: coherent
+    recall_policy: macro
+    target_tokens: 32000
+    trigger_tokens: 36000
+    tail_tokens: 19200
+    minimum_tail_tokens: 8000
+    segment_max_tokens: 16000
+    recall_budget_tokens: 14400
+    warm_budget_tokens: 4000
+    global_budget_tokens: 2048
+    chunk_min: 4000
+    chunk_target: 8000
+    chunk_max: 12000
+    summary_max_tokens: 1536
+    summary_memory_max_tokens: 4096
+    librarian_max_tokens: 4096
+    librarian_fallback_reserve_seconds: 180
+    compact_source_aliases: true
+    job_timeout: 600
+    generation_reserve_tokens: 8192
+    continuity_retained_fraction: 0.85
+    task_state_budget_tokens: 1024
+    warm_max_blocks: 2
+    elastic:
+      enabled: false
+    loop_guard:
+      enabled: true
+      task_mode: auto
+      no_progress_turns: 5
+      cooldown_turns: 6
+      max_control_tokens: 250
+    generation_governor:
+      enabled: true
+    execution_state:
+      enabled: false
+      max_tokens: 250
+    compactor_mode: librarian
+agent:
+  reasoning_effort: medium
+auxiliary:
+  compression:
+    provider: custom
+    model: qwen35-4b-compactor
+    base_url: http://127.0.0.1:8083/v1
+    context_length: 65536
+    timeout: 600
+    reasoning_effort: none
+    extra_body:
+      max_tokens: 1536
+      chat_template_kwargs:
+        enable_thinking: false
+plugins:
+  enabled: []
+  disabled: []
+  clone_timeout_seconds: 300
+mcp_servers: {}

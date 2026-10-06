@@ -1,0 +1,18 @@
+{
+  "candidate_version": "0.3.0-beta.1",
+  "version_status": "proposed",
+  "date": "2026-10-06",
+  "source_fingerprint": "4b0e4ee4b32d6d5ad651e2005feb720a140954bb01415ef8261229189bfde480",
+  "supported_environment": "Linux + Hermes native ContextEngine + local llama.cpp",
+  "license_status": "MIT selected and authorized",
+  "license": "MIT",
+  "sanitisation_status": "reviewed clean for public repository",
+  "verification": {
+    "unit_tests_passed": 257,
+    "verifier_checks_passed": 7,
+    "failures": 0,
+    "date": "2026-10-06",
+    "scope": "repaired sanitised candidate; prior failed attempts retained in verification/RESULTS.md"
+  },
+  "repository_readiness": "READY FOR GITHUB"
+}

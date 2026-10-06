@@ -1,0 +1,169 @@
+{
+  "runtime_and_launch_tooling_byte_identical": true,
+  "production_source_fingerprint": "4b0e4ee4b32d6d5ad651e2005feb720a140954bb01415ef8261229189bfde480",
+  "production_source_files_unchanged_during_release_fixes": true,
+  "runtime_behavior_or_frozen_config_changes": false,
+  "changed_copied_files": [
+    {
+      "path": ".gitignore",
+      "production_sha256": "11e9620022ccab6ae10cfbaebab49fec3b998dee29cf040324e7f800119da34f",
+      "package_sha256": "4dbc01bf23d87aa0ec889c5ce1579ec6bdca31a0866919a620dcb3e2e2a7a794",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "README.md",
+      "production_sha256": "d5b21b4ae758ce37a8892f11b3dea94c0f5255ca507d30e6d2f7dab72d712a36",
+      "package_sha256": "24e4d442fc529530a38f5397e27a4c5f209380021ccfafbccad8bd3c3df7ee0c",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/astra_ceiling_probe.py",
+      "production_sha256": "d6b609ea14f94069d9b5fba8c59ba8729f6ce3c484bfbce19fb9487cd46f2506",
+      "package_sha256": "079a7cbd6f6a7e9e465e74b00e078d2da261fe7a1aee56d84f8d5da1e37aa0e5",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/astra_replay.py",
+      "production_sha256": "d3677c260c007423fbc88dfd6e2a20bf59c7681d7178ae24423b4f675744ccc3",
+      "package_sha256": "8cd3820ffae01774ae9b3456081bc74c7408d022ae6e02e6d8192e66bb851f04",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/astra_servers.py",
+      "production_sha256": "d65b10c29cebc63503c1bb83940b52d963d96115ef4362161fb4cba89c8ee3fb",
+      "package_sha256": "647a5da61614ea085a954de527de18fd8f72366d5559537612e6d51120927338",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/circulator_boundary.py",
+      "production_sha256": "24efb5ac0a04b1a091fa94b558aaccd88b3bd267da745461a61590ba85b7e8bd",
+      "package_sha256": "beb4096c699b4e2272ad5ccd03824cc0b2c30667db3b10967ba4e6e55a4d44ee",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/circulator_collect.py",
+      "production_sha256": "672e3192e8f6830dfb3535ef0899af11b4e8afe5f15bd082312c8a335da5e2d5",
+      "package_sha256": "e2027c638666fc71630de477907aec5f3cf89bb360e72fe27e588d687ef7c4e5",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/circulator_gauntlet.py",
+      "production_sha256": "8dc8f37f3de3782c0066fc4a9f5761fa5869e499eb77033945ea94f00484b66d",
+      "package_sha256": "f244da5a69c26973a2f6085033f286020686a74f2fb914a4ba9b8641dbac936e",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/circulator_live.py",
+      "production_sha256": "4b22821df2ce57d98d4f93edb24821ae1b388cf36faa0434b7f9cbe3648534b6",
+      "package_sha256": "6f9d4040d8e7e58815b17878eb5f0e8e4ef7da815dcb795888b9f5d3dafde24c",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/circulator_report.py",
+      "production_sha256": "5c7ae78a55e0a0de8c6e9e60ba28e06c78d02abef71ac99c2e22012566ae4c43",
+      "package_sha256": "823fd35add54eb5ef0539c610faa83c60c3dd77281d98688679e2ec644c83c29",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/circulator_stress.py",
+      "production_sha256": "0968ee0c96b763224763fc1d5f0aa5d8c947790bfb8e15fb35473001b7f4211f",
+      "package_sha256": "f4ee08fc52a7c5d0af30fd8f7d9b56b0dd6e479d660c926610cdc7b14e8c34c7",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/continuity_e2e.py",
+      "production_sha256": "3040837c6e050118cfd2bbaf279e0a4cfbe38331778d121667cf464f306d2248",
+      "package_sha256": "fa6ecd0ac0a6d90acb01a774ab8b27f57c8ddfb8b4453d3f662e9ecd6522f14d",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "scripts/continuity_schema_fixture.py",
+      "production_sha256": "bdb91c9f3c12a80c669d870d4180c03cb45d57a377994cb167fd83504ff642da",
+      "package_sha256": "f001fde073b29bde8f5fce2a3856c9edc7813c0fb04d06b3fbf806154d6ef50e",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "tests/fixtures/synthetic_coding_loop.json",
+      "production_sha256": "9c5937491b251987e90466a725a210d7ca0c53938adc7e5afddc5bfc26f29dd3",
+      "package_sha256": "3af6d627e7e6d94889d40c08ed812a48eaeeeacd081a2e68167b9cf21b6bd7ed",
+      "reason": "private-named synthetic loop fixture renamed and generalized; source filename withheld; structure and behavior assertions retained"
+    },
+    {
+      "path": "tests/test_execution_memory.py",
+      "production_sha256": "97b44c9a5d1596f38c06bfb01da2fcc7d5f385c9fb79269a2a8d68aba62f950a",
+      "package_sha256": "25747caf79cd052253309e4fefc7d7ad4b6c9e7819506ebdd5d610c34d691ce6",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "tests/test_launcher_install.py",
+      "production_sha256": "60b4da6eb132a59e3a619e5db0e1a2bfa07d7b0c44f88170993fcbb2db4660b1",
+      "package_sha256": "5ef87bf466dc41f8d833e48c042b7651f7e6c71ab878584e29a7609d4ebb3374",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "tests/test_loop_guard.py",
+      "production_sha256": "9c548573852b53e47d50917a1929fcd6216a952f9d14205d213aca28bbbb1192",
+      "package_sha256": "c4b6b58ea65296f46db53f48a6f5d82192edec37422ad07b7bfd26b05f8b8170",
+      "reason": "release-only generic documentation, regression data, explicit replay inputs, portability or privacy sanitisation"
+    },
+    {
+      "path": "tests/test_relay.py",
+      "production_sha256": "b262fb677e0d8cb9a15b19bf0d4e0f4cbfc87a4ffda46d73fe747aca0a75e9bb",
+      "package_sha256": "c5bdb2d47a6949d7b576f5e00e6cac6f896cc83d471da11788ab52c50b176729",
+      "reason": "test-only shared telemetry read lock matches existing writer lock; all event assertions retained; completed malformed JSON still fails"
+    }
+  ],
+  "package_only_files": [
+    ".github/ISSUE_TEMPLATE/beta_test_report.md",
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    "ARCHITECTURE.md",
+    "BETA_TESTING.md",
+    "CODEX_HANDOFF.md",
+    "CONFIGURATION.md",
+    "CONTRIBUTING.md",
+    "FINDINGS.md",
+    "INSTALL.md",
+    "LICENSE",
+    "PACKAGE_AUDIT.md",
+    "PACKAGE_CONTENTS.md",
+    "QUICKSTART.md",
+    "RELEASE_METADATA.json",
+    "RELEASE_NOTES.md",
+    "SANITISATION_RESULTS.json",
+    "SECURITY_PRIVACY.md",
+    "SOURCE_COMPARISON.json",
+    "examples/large-generated-defaults.yaml",
+    "examples/large-known-good.yaml",
+    "requirements.txt",
+    "scripts/README.md",
+    "tests/test_replay_inputs.py",
+    "tests/test_telemetry_reader.py",
+    "verification/RESULTS.md"
+  ],
+  "portable_manifest": "Every shipped file except the manifest itself is covered; manifest has no personal source-root field.",
+  "excluded_source_helpers": [
+    {
+      "path": "scripts/astra_audit.py",
+      "reason": "legacy archived hidden-reasoning inspection"
+    },
+    {
+      "path": "scripts/astra_reasoning.py",
+      "reason": "legacy archived hidden-reasoning inspection"
+    },
+    {
+      "path": "scripts/circulator_finish_runtime.py",
+      "reason": "obsolete one-off fixed-process cleanup"
+    },
+    {
+      "path": "scripts/continuity_replay.py",
+      "reason": "private archive/snapshot-specific replay with live-state default; generic explicit-input replay helpers remain"
+    }
+  ],
+  "excluded_categories": [
+    "production work/campaign outputs and private project/transcript/history data",
+    "historical root operational reports replaced by current release documentation",
+    "benchmark exports and runtime state/telemetry/databases",
+    "external dependencies, credentials, models, caches, logs, lock/PID files and Git metadata"
+  ],
+  "fixture_note": "All original test behaviors retained; fixture renamed to synthetic_coding_loop.json and text/assertion markers generalized. Three new replay-input tests cover required inputs, missing-file no-create behavior and unknown-session no-write behavior. Two deterministic telemetry-reader regressions cover active-write synchronization and rejecting malformed completed records. No runtime telemetry behavior was changed."
+}

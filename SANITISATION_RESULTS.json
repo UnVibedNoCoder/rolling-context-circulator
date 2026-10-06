@@ -1,0 +1,1085 @@
+{
+  "date": "2026-10-06",
+  "status": "reviewed clean for public repository",
+  "method": "Recursive filenames and UTF-8 contents of every shipped file scanned; matched paths/privacy/secret-assignment locations manually classified. Artifact types inspected. Public scans disclose no private names or original identifiers.",
+  "limits": "Pattern scans cannot prove absence of every possible secret. Real hidden reasoning/private history was not opened. Privacy tags/field names in redaction code and synthetic negative tests are intentionally retained.",
+  "file_count": 116,
+  "text_file_count": 116,
+  "counts": {
+    "private_downstream_project_name": 0,
+    "other_private_project_name": 0,
+    "personal_username_or_home": 0,
+    "old_agent_output_path": 0,
+    "mounted_drive_path": 0,
+    "real_session_identifier_shape": 0,
+    "uuid_literal": 0,
+    "fixed_process_identity": 0,
+    "credential_shaped_value": 0,
+    "bearer_token_value": 0,
+    "secret_assignment": 1,
+    "email_address": 0
+  },
+  "secret_assignment_review": {
+    "matches": [
+      {
+        "file": "tests/test_librarian.py",
+        "line": 19
+      }
+    ],
+    "classification": "intentional synthetic privacy sentinel, not an actual credential"
+  },
+  "real_hidden_reasoning_or_raw_history_found": false,
+  "private_project_content_found": false,
+  "unexpected_binary_files": [],
+  "forbidden_artifacts": [],
+  "remaining_path_occurrences": [
+    {
+      "file": "CODEX_HANDOFF.md",
+      "line": 21,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "CONFIGURATION.md",
+      "line": 14,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "line": 15,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "FINDINGS.md",
+      "line": 24,
+      "classification": "generic historical stale-checkout name; no personal path"
+    },
+    {
+      "file": "INSTALL.md",
+      "line": 8,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "INSTALL.md",
+      "line": 9,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "INSTALL.md",
+      "line": 17,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "INSTALL.md",
+      "line": 21,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "INSTALL.md",
+      "line": 22,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "INSTALL.md",
+      "line": 33,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "INSTALL.md",
+      "line": 43,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "INSTALL.md",
+      "line": 46,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "INSTALL.md",
+      "line": 52,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "QUICKSTART.md",
+      "line": 7,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "QUICKSTART.md",
+      "line": 10,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "QUICKSTART.md",
+      "line": 13,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "QUICKSTART.md",
+      "line": 14,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "QUICKSTART.md",
+      "line": 15,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "QUICKSTART.md",
+      "line": 25,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "README.md",
+      "line": 28,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "README.md",
+      "line": 30,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "README.md",
+      "line": 38,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "README.md",
+      "line": 39,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "README.md",
+      "line": 52,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "SECURITY_PRIVACY.md",
+      "line": 9,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "examples/large-generated-defaults.yaml",
+      "line": 25,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "examples/large-known-good.yaml",
+      "line": 25,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "hermes-circulator",
+      "line": 1,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "install-manifest.json",
+      "line": 5,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "install.sh",
+      "line": 1,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "install.sh",
+      "line": 4,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "install.sh",
+      "line": 14,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "install.sh",
+      "line": 22,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "install.sh",
+      "line": 23,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "install.sh",
+      "line": 45,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "install.sh",
+      "line": 50,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "requirements.txt",
+      "line": 1,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 31,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 46,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 73,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 74,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 122,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 156,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 158,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 190,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 197,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 269,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 288,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 442,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 554,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 561,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 590,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/cli.py",
+      "line": 592,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/common.py",
+      "line": 296,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/file_reads.py",
+      "line": 117,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/file_reads.py",
+      "line": 119,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/file_reads.py",
+      "line": 233,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/provenance.py",
+      "line": 16,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/provenance.py",
+      "line": 63,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/relay.py",
+      "line": 342,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "rolling_context/relay.py",
+      "line": 723,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/README.md",
+      "line": 7,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "scripts/README.md",
+      "line": 14,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "scripts/README.md",
+      "line": 15,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "scripts/astra_ceiling_probe.py",
+      "line": 5,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/astra_ceiling_probe.py",
+      "line": 24,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/astra_ceiling_probe.py",
+      "line": 34,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/astra_recall_probe.py",
+      "line": 17,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/astra_recall_probe.py",
+      "line": 18,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/astra_recall_probe.py",
+      "line": 26,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/astra_recall_probe.py",
+      "line": 34,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/astra_replay.py",
+      "line": 11,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/astra_replay.py",
+      "line": 26,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/astra_score.py",
+      "line": 36,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/astra_servers.py",
+      "line": 15,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "scripts/astra_servers.py",
+      "line": 16,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "scripts/astra_workload.py",
+      "line": 35,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/astra_workload.py",
+      "line": 36,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/astra_workload.py",
+      "line": 37,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/astra_workload.py",
+      "line": 38,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/astra_workload.py",
+      "line": 60,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/astra_workload.py",
+      "line": 61,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/astra_workload.py",
+      "line": 127,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/astra_workload.py",
+      "line": 136,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/circulator_boundary.py",
+      "line": 6,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "scripts/circulator_capacity.py",
+      "line": 30,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "scripts/circulator_report.py",
+      "line": 13,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "scripts/circulator_report.py",
+      "line": 19,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/circulator_report.py",
+      "line": 191,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "scripts/circulator_stress.py",
+      "line": 7,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/circulator_stress.py",
+      "line": 39,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "scripts/continuity_e2e.py",
+      "line": 21,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "scripts/continuity_e2e.py",
+      "line": 22,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "scripts/continuity_schema_fixture.py",
+      "line": 6,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "tests/benchmark_circulator.py",
+      "line": 8,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_cli.py",
+      "line": 44,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_cli.py",
+      "line": 70,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_cli.py",
+      "line": 112,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_cli.py",
+      "line": 217,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_continuity.py",
+      "line": 10,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_engine.py",
+      "line": 11,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_execution_memory.py",
+      "line": 9,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_file_reads.py",
+      "line": 11,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_file_tool_exposure.py",
+      "line": 17,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_file_tool_exposure.py",
+      "line": 26,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_launcher_install.py",
+      "line": 26,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_launcher_install.py",
+      "line": 35,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_librarian.py",
+      "line": 228,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_loop_guard.py",
+      "line": 8,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_provenance.py",
+      "line": 13,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_provenance.py",
+      "line": 28,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_provenance.py",
+      "line": 33,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_provenance.py",
+      "line": 108,
+      "classification": "intentional synthetic mismatch/stale-source regression fixture"
+    },
+    {
+      "file": "tests/test_provenance.py",
+      "line": 137,
+      "classification": "intentional synthetic mismatch/stale-source regression fixture"
+    },
+    {
+      "file": "tests/test_provenance.py",
+      "line": 138,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_provenance.py",
+      "line": 157,
+      "classification": "intentional synthetic mismatch/stale-source regression fixture"
+    },
+    {
+      "file": "tests/test_recall_versions.py",
+      "line": 10,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_recall_versions.py",
+      "line": 11,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_recall_versions.py",
+      "line": 20,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_replay_inputs.py",
+      "line": 27,
+      "classification": "explicit synthetic external-input placeholder"
+    },
+    {
+      "file": "tests/test_retrieval_correctness.py",
+      "line": 12,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "tests/test_verify.py",
+      "line": 16,
+      "classification": "synthetic test path or declared external Hermes dependency"
+    },
+    {
+      "file": "uninstall.sh",
+      "line": 1,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "uninstall.sh",
+      "line": 6,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "uninstall.sh",
+      "line": 19,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "uninstall.sh",
+      "line": 20,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "uninstall.sh",
+      "line": 68,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "verify.sh",
+      "line": 1,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "verify.sh",
+      "line": 24,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "verify.sh",
+      "line": 49,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "verify.sh",
+      "line": 54,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "verify.sh",
+      "line": 62,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "verify.sh",
+      "line": 63,
+      "classification": "portable home-relative runtime default, example or generic campaign dependency"
+    },
+    {
+      "file": "verify.sh",
+      "line": 68,
+      "classification": "declared Linux/platform requirement or executable path"
+    },
+    {
+      "file": "verify.sh",
+      "line": 116,
+      "classification": "declared Linux/platform requirement or executable path"
+    }
+  ],
+  "privacy_marker_occurrences": [
+    {
+      "file": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "line": 16,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "ARCHITECTURE.md",
+      "line": 11,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "ARCHITECTURE.md",
+      "line": 31,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "BETA_TESTING.md",
+      "line": 23,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "CODEX_HANDOFF.md",
+      "line": 19,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "CONFIGURATION.md",
+      "line": 91,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "line": 9,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "FINDINGS.md",
+      "line": 10,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "PACKAGE_AUDIT.md",
+      "line": 25,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "SANITISATION_RESULTS.json",
+      "line": 5,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "SECURITY_PRIVACY.md",
+      "line": 5,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/admission.py",
+      "line": 111,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/admission.py",
+      "line": 251,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/admission.py",
+      "line": 254,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/coherent.py",
+      "line": 101,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/coherent.py",
+      "line": 124,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/common.py",
+      "line": 20,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/common.py",
+      "line": 34,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/common.py",
+      "line": 113,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/common.py",
+      "line": 120,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/common.py",
+      "line": 214,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/common.py",
+      "line": 217,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/common.py",
+      "line": 220,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/compaction.py",
+      "line": 89,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/continuity.py",
+      "line": 42,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/engine.py",
+      "line": 68,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/governor.py",
+      "line": 78,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/librarian.py",
+      "line": 98,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/librarian.py",
+      "line": 99,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/librarian.py",
+      "line": 203,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/loop_guard.py",
+      "line": 3,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/loop_guard.py",
+      "line": 29,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/relay.py",
+      "line": 217,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "rolling_context/relay.py",
+      "line": 242,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "scripts/README.md",
+      "line": 5,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "scripts/astra_progress.py",
+      "line": 1,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "scripts/continuity_e2e.py",
+      "line": 148,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_continuity.py",
+      "line": 113,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_execution_memory.py",
+      "line": 51,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_execution_memory.py",
+      "line": 54,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_execution_memory.py",
+      "line": 150,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_execution_state.py",
+      "line": 58,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 52,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 152,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 153,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 163,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 165,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 170,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 184,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 185,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 206,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 220,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 221,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 232,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 233,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_four_corrections.py",
+      "line": 255,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_generation_governor.py",
+      "line": 13,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_generation_governor.py",
+      "line": 35,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_governor_http.py",
+      "line": 50,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_governor_http.py",
+      "line": 54,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_governor_http.py",
+      "line": 57,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_librarian.py",
+      "line": 40,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_librarian.py",
+      "line": 42,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_librarian.py",
+      "line": 72,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_librarian.py",
+      "line": 125,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_librarian.py",
+      "line": 240,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_loop_guard.py",
+      "line": 15,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_loop_guard.py",
+      "line": 157,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_loop_guard.py",
+      "line": 160,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_loop_guard.py",
+      "line": 161,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_observation.py",
+      "line": 13,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_observation.py",
+      "line": 14,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_observation.py",
+      "line": 31,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    },
+    {
+      "file": "tests/test_transport.py",
+      "line": 11,
+      "classification": "privacy documentation, redaction/protection code or synthetic negative test"
+    }
+  ],
+  "manual_review": "No private workload/project names, personal paths, real session/UUID literals, fixed process identities, credential values, private archive content or runtime exports were identified. External model aliases, platform endpoints and synthetic fixture paths are legitimate technical requirements."
+}

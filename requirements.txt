@@ -1,0 +1,2 @@
+# Install for /usr/bin/python3; Hermes and llama.cpp are external dependencies.
+PyYAML>=6.0
