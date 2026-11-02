@@ -8,8 +8,8 @@ But my mates GPT, Hermes, Qwen and DSH do.
 
 Please feel free to test this, break it, abuse it and tell me what goes wrong. Aimed at those with smaller less vram systems, that hit those damn limits/crashes/compaction sequences.
 
-Next update for me: try a more analytical model like Phi as the Librarian, improve fact-checking/settled decisions, test more agents/backends, and eventually make it properly universal across Linux/Windows.
-That’s the plan anyway. 
+Next update for me: try a more analytical model like Phi as the Librarian, improve fact-checking/settled decisions, test more agents/backends, and eventually make it properly universal across Linux/Windows. That didn't work, tested like 10 models on CPU and larger weights, all too slow. Gwen 3.5 4B was always best. Still need to do the windows version. Also changed a few timing/token things.
+That’s the plan anyway, soon.
 
 Caution. This is a BETA, please don't ruin your good configs or projects. 
 
